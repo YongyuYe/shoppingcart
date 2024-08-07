@@ -5,7 +5,7 @@ import StoreItems from "../components/StoreItems";
 export default function Store() {
   return (
     <>
-      <h1>Store</h1>
+      <h1 className="text-center">Fruit Store</h1>
       <Row md={2} xs={1} lg={3} className="g-3">
         {storeItems.map((item) => (
           <Col key={item.id}>
